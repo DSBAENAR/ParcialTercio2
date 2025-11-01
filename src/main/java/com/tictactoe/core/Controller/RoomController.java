@@ -12,7 +12,7 @@ import com.tictactoe.core.Repo.RoomsRepository.RoomRepository;
 import com.tictactoe.core.model.Room;
 
 @Controller
-public class GameController {
+public class RoomController {
 
     @Autowired
     private RoomRepository roomRepository;

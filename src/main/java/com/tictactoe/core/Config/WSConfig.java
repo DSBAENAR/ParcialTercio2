@@ -19,9 +19,11 @@ public class WSConfig implements WebSocketMessageBrokerConfigurer {
 
     @Override
     public void registerStompEndpoints(StompEndpointRegistry registry) {
-        registry.addEndpoint("/tictactoews")
+        registry.addEndpoint("/ws")
         .setAllowedOriginPatterns("*")
         .withSockJS();
     }
+
+    
 
 }
