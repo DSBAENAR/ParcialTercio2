@@ -173,4 +173,10 @@ async function makeMove(row, col) {
 De esta manera se puede construir una aplicación interactiva de Tic Tac Toe usando WebSockets para la comunicación en tiempo real entre los jugadores.
 
 ![alt text](image-1.png)
+![alt text](image-2.png)
+![alt text](image-3.png)
+
+repositorio front:
+
+https://github.com/DSBAENAR/LearningReact.git
 
